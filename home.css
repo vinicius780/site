@@ -1,0 +1,525 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+body {
+	flex-basis: 100vh;
+	background-color: black;
+}
+.header {
+	height: 80px;
+	flex-basis: 100vh;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(50, 50, 50);
+}
+.itemHeader {
+	margin: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+.logo {
+	margin: 10px;
+	width: 100px;
+	height: 60px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px 3px black;
+}
+
+.paragraphLogo {
+	margin: 10px;
+	color: red;
+	font-size: 2rem;
+}
+.button {
+	margin: 10px;
+	width: 100px;
+	height: 40px;
+	border: 1px solid rgb(0, 0, 0);
+	box-shadow: 1px 1px 1px 1px black;
+	font-size: 1rem;
+	border-radius: 10px;
+	color: black;
+	cursor: pointer;
+}
+.button:hover {
+	background-color: black;
+	color: white;
+}
+
+.itemSection {
+	flex-basis: 100vh;
+	height: 100px;
+	margin: 10px;
+	padding: 10px;
+	color: white;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+#titleSection {
+	font-size: 2rem;
+	margin: 10px;
+	color: red;
+}
+.paragraph {
+	font-size: 1.5rem;
+	display: flex;
+	justify-content: center;
+}
+.cards {
+	flex-basis: 100vh;
+	margin: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.cardSection {
+	width: 80px;
+	height: 60px;
+	margin: 10px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px rgb(79, 79, 79);
+}
+.title {
+	color: red;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+}
+.item {
+	width: 300px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 15px;
+	padding: 5px;
+	background-color: rgb(58, 58, 58);
+}
+.cardItem {
+	width: 250px;
+	height: 200px;
+}
+.section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.item2 {
+	width: 300px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 15px;
+	padding: 5px;
+	background-color: rgb(58, 58, 58);
+}
+.section2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+}
+.Doubt {
+	width: 50%;
+}
+.titleDoubt1 {
+	font-size: 3rem;
+	color: red;
+}
+.Doubt2 {
+	width: 280px;
+	height: 280px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 15px;
+	padding: 5px;
+	background-color: rgb(58, 58, 58);
+}
+.titleDoubt2 {
+	font-size: 2rem;
+	color: black;
+}
+.cardDoubt {
+	width: 150px;
+	height: 120px;
+	border-radius: 50%;
+	margin: 10px;
+}
+.doubtParagraph {
+	font-size: 1rem;
+	text-align: center;
+}
+.section3 {
+	flex-basis: 100vh;
+	background-color: rgb(61, 60, 60);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.textEnd {
+	flex-basis: 100vh;
+	margin: 10px;
+}
+.titleEnd {
+	font-size: 2rem;
+	padding: 10px;
+	color: black;
+}
+
+#page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+	background-color: #000000;
+}
+
+.formLogin {
+	display: flex;
+	flex-direction: column;
+	background-color: #fdfdfd;
+	border-radius: 7px;
+	padding: 40px;
+	box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+	gap: 5px;
+}
+
+.areaLogin img {
+	width: 420px;
+}
+
+.formLogin h1 {
+	color: #000000;
+	padding: 0;
+	margin: 0;
+	font-weight: 500;
+	font-size: 2.3em;
+}
+
+.formLogin p {
+	display: inline-block;
+	font-size: 14px;
+	color: #030303;
+	margin-bottom: 25px;
+}
+
+.formLogin input {
+	padding: 15px;
+	font-size: 14px;
+	border: 1px solid #000000;
+	margin-bottom: 20px;
+	margin-top: 5px;
+	border-radius: 4px;
+	transition: all linear 160ms;
+	outline: none;
+}
+
+.formLogin input:focus {
+	border: 1px solid #090909;
+}
+
+.formLogin label {
+	font-size: 14px;
+	font-weight: 600;
+	color: #000000;
+}
+
+.formLogin a {
+	text-decoration: none;
+	display: inline-block;
+	margin-bottom: 20px;
+	font-size: 13px;
+	color: #000000;
+	transition: all linear 160ms;
+}
+
+.formLogin a:hover {
+	color: #000000;
+}
+
+.btn {
+	background-color: #191819;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	border: none !important;
+	transition: all linear 160ms;
+	cursor: pointer;
+	margin: 0 !important;
+}
+
+.btn:hover {
+	transform: scale(1.05);
+	background-color: #050505;
+}
+.footer {
+	height: 80px;
+	flex-basis: 100vh;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	background-color: rgb(50, 50, 50);
+}
+
+@media screen and (max-width: 380px) {
+	.header,
+	.footer {
+		width: 100%;
+		height: 100%;
+	}
+	.logo {
+		width: 50px;
+		height: 40px;
+	}
+	.main {
+		width: 100%;
+		height: 100%;
+		margin: 20px;
+		margin-left: -50px;
+	}
+	.button {
+		width: 60px;
+		height: 50px;
+		font-size: 10px;
+	}
+	.section,
+	.section2,
+	.section3,
+	.cardItem {
+		width: 100%;
+		height: 100%;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.cardDoubt,
+	.cardItem,
+	.cardSection {
+		width: 100%;
+		height: 100%;
+	}
+	.title,
+	.titleDoubt1,
+	.titleDoubt2,
+	.titleEnd {
+		font-size: 12px;
+	}
+	.paragraph,
+	.paragraphLogo,
+	.doubtParagraph {
+		font-size: 10px;
+	}
+}
+@media screen and (max-width: 460px) {
+	.header,
+	.footer {
+		width: 100%;
+		height: 100%;
+	}
+	.logo {
+		width: 50px;
+		height: 40px;
+	}
+	.main {
+		width: 100%;
+		height: 100%;
+		margin: 20px;
+		margin-left: -50px;
+	}
+	.button {
+		width: 60px;
+		height: 50px;
+		font-size: 10px;
+	}
+	.section,
+	.section2,
+	.section3,
+	.cardItem {
+		width: 100%;
+		height: 100%;
+	}
+
+	.cardDoubt,
+	.cardItem,
+	.cardSection {
+		width: 60px;
+		height: 50px;
+		margin: 10px;
+	}
+	.title,
+	.titleDoubt1,
+	.titleDoubt2,
+	.titleEnd {
+		font-size: 12px;
+	}
+	.paragraph,
+	.paragraphLogo,
+	.doubtParagraph {
+		font-size: 10px;
+	}
+}
+@media screen and (max-width: 620px) {
+	.header,
+	.footer {
+		width: 100%;
+		height: 100%;
+	}
+	.logo {
+		width: 50px;
+		height: 40px;
+	}
+	.main {
+		width: 100%;
+		height: 100%;
+		margin: 20px;
+		margin-left: -50px;
+	}
+	.button {
+		width: 60px;
+		height: 50px;
+		font-size: 10px;
+	}
+	.section,
+	.section2,
+	.section3,
+	.cardItem {
+		width: 100%;
+		height: 100%;
+	}
+
+	.cardDoubt,
+	.cardItem,
+	.cardSection {
+		width: 80px;
+		height: 70px;
+		margin: 10px;
+	}
+	.title,
+	.titleDoubt1,
+	.titleDoubt2,
+	.titleEnd {
+		font-size: 12px;
+	}
+	.paragraph,
+	.paragraphLogo,
+	.doubtParagraph {
+		font-size: 10px;
+	}
+}
+@media screen and (max-width: 760px) {
+	.header,
+	.footer {
+		width: 100%;
+		height: 100%;
+	}
+	.logo {
+		width: 50px;
+		height: 40px;
+	}
+	.main {
+		width: 100%;
+		height: 100%;
+		margin: 20px;
+		margin-left: -50px;
+	}
+	.button {
+		width: 60px;
+		height: 50px;
+		font-size: 10px;
+	}
+	.section,
+	.section2,
+	.section3,
+	.cardItem {
+		width: 100%;
+		height: 100%;
+	}
+
+	.cardDoubt,
+	.cardItem,
+	.cardSection {
+		width: 60px;
+		height: 50px;
+		margin: 10px;
+	}
+	.title,
+	.titleDoubt1,
+	.titleDoubt2,
+	.titleEnd {
+		font-size: 12px;
+	}
+	.paragraph,
+	.paragraphLogo,
+	.doubtParagraph {
+		font-size: 10px;
+	}
+}
+@media screen and (max-width: 830px) {
+	.header,
+	.footer {
+		width: 100%;
+		height: 100%;
+	}
+	.logo {
+		width: 50px;
+		height: 40px;
+	}
+	.main {
+		width: 100%;
+		height: 100%;
+		margin: 20px;
+		margin-left: -50px;
+	}
+	.button {
+		width: 60px;
+		height: 50px;
+		font-size: 10px;
+	}
+	.section,
+	.section2,
+	.section3,
+	.cardItem {
+		width: 100%;
+		height: 100%;
+	}
+
+	.cardDoubt,
+	.cardItem,
+	.cardSection {
+		width: 60px;
+		height: 50px;
+		margin: 10px;
+	}
+	.title,
+	.titleDoubt1,
+	.titleDoubt2,
+	.titleEnd {
+		font-size: 12px;
+	}
+	.paragraph,
+	.paragraphLogo,
+	.doubtParagraph {
+		font-size: 10px;
+	}
+}
